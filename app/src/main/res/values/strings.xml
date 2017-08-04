@@ -3,4 +3,6 @@
     <string name="hint_username">Usuario</string>
     <string name="hint_password">password</string>
     <string name="button_login">INICIAR SESIÓN</string>
+    <string name="afluencia">afluencia</string>
+    <string name="ventas">ventas</string>
 </resources>

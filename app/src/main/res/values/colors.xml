@@ -3,4 +3,7 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="att_orange">#EF6F00</color>
+    <color name="telcel_blue">#0B4DA2</color>
 </resources>
