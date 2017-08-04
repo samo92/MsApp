@@ -13,19 +13,20 @@
         android:orientation="vertical"
         android:weightSum="1">
 
-        <RelativeLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="0.6">
+            android:layout_weight="0.6"
+            android:orientation="vertical"
+            android:gravity="center">
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/logo"
-                android:background="@drawable/logo"
-                android:layout_centerInParent="true"/>
+                android:background="@drawable/logo"/>
 
-        </RelativeLayout>
+        </LinearLayout>
 
         <ScrollView
             android:layout_width="match_parent"
@@ -69,8 +70,9 @@
 
                 <Button
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="@string/button_login"/>
+                    android:layout_height="65dp"
+                    android:text="@string/button_login"
+                    android:theme="@style/RaisedButtonDark"/>
 
             </LinearLayout>
 
